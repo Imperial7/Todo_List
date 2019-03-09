@@ -1,0 +1,46 @@
+.main-todo .header input
+{
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #FFF;
+    width: 256px;
+}
+
+.main-todo .header input[type="text"]
+{
+    width: 512px;
+}
+
+.main-todo .header input[type="submit"]
+{
+    color: white;
+    background-color: #50C878;
+    transition: background-color 0.5s ease-in-out;
+}
+
+.main-todo .header input[type="submit"]:hover
+{
+    cursor: pointer;
+    background-color: #5BE589;
+}
+
+.main-todo .main-list
+{
+    list-style: none;
+}
+
+.main-todo .main-list li
+{
+    color: white;
+    background-color: rgba(255,255,255,0.5);
+    padding: 32px;
+    margin-bottom: 16px;
+    font-size: 24px;
+    transition: background-color 0.25s ease-out;
+}
+
+.main-todo .main-list li:hover
+{
+    cursor: pointer;
+    background-color: rgba(255,255,255,0.7);
+}
